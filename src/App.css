@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.main-container{
+  color: rgb(23, 22, 83);
+  } 
+
+.dashboard-style{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#dashb-img{
+  margin: 20px;
+  width: 600px;
+  height: 500px;
+}
+
+.dashboard-head{
+  padding: 20px;
+}
+
+.emp-collection{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 20px;
+}
+
+.card-style{
+ background-color: rgb(23, 22, 83);
+}
+
+.main-card-style{
+  display: flex;
+ justify-content: center;
+ padding: 30px;
+}
+
+.card-btn-grp{
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card-btn-grp>button{
+  padding: 7px;
+  width: 85px;
+  border: none;
+  border-radius: 5px;
+}
+
+.card-btn-grp>button:hover{
+  background-color: black;
+  color: white;
+}
+
+.emp-button{
+  width: 100px;
+  padding: 20px;
+}
+
+.vr-line{
+  color: rgb(103, 101, 101);
+}
+
+.nav-btn-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  padding: 5px;
+}
+
+.footer{
+  position: relative;
+  bottom: 0;
+  align-items:end;
+}
+
+.form-cls{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 700px;
+  background-color: rgb(0,123,255); 
+  color: whitesmoke;
+}
+
+.inp-bar{
+  width: 500px;
+}
