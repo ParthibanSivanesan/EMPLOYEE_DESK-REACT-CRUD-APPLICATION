@@ -11,6 +11,7 @@ function EditEmployee({employee, setEmployee}) {
     //Defining the Employee States
     const [empid, setEmpId] = useState('');
     const [name, setName] = useState('');
+    const [regno, setRegNo] = useState('');
     const [shift, setShift] = useState('');
     const [education, setEducation] = useState('');
     const [gender, setGender] = useState('');
@@ -26,6 +27,7 @@ function EditEmployee({employee, setEmployee}) {
     if(employeeData){       //if EmployeeData is there then only dispaly the details in update screen
         setEmpId(employeeData.empid);
         setName(employeeData.name);
+        setRegNo(employeeData.regno);
         setShift(employeeData.shift);
         setEducation(employeeData.education);
         setGender(employeeData.gender);
